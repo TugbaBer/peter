@@ -131,11 +131,11 @@ function buildImpactFromItem(item: {
     factor: item.coeff,
     quantity: {
       value: item.mass,
-      unit: 'kg',
+      unit: 'g',
     },
     impact: {
       value: item.result,
-      unit: 'kg',
+      unit: 'g',
     },
   };
 }
@@ -237,7 +237,7 @@ function computeEnergyUsedAtTestLocationsImpact(
         },
         impact: {
           value: item.result,
-          unit: 'kg',
+          unit: 'g',
         },
       };
     }),
@@ -277,7 +277,7 @@ function computeEmbeddedMobilityInUseImpact(
           },
           impact: {
             value: total,
-            unit: 'kg',
+            unit: 'g',
           },
         },
       ],
@@ -330,7 +330,7 @@ function computeTransportedMobilityInUseImpact(
         },
         impact: {
           value: item.result,
-          unit: 'kg',
+          unit: 'g',
         },
       };
     }),
@@ -355,7 +355,7 @@ function computeRecyclingImpact(
         quantity: { value: 1, unit: '' },
         impact: {
           value: impact,
-          unit: 'kg',
+          unit: 'g',
         },
       },
     ],
