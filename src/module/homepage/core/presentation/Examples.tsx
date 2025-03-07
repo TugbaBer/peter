@@ -29,30 +29,30 @@ function Examples() {
         <Example
           title="Mechanics"
           description="Mechanics: CO₂ emissions for material production and manufacturing
-          operation of a 3kg steel cabinet will account for:"
+          operation of a 3g steel cabinet will account for:"
           formula={
-            '\\(m CO_{2 Mecha} = 3 \\times m_{Steel} = 3 \\times 3 = 9kg CO_2\\)'
+            '\\(m CO_{2 Mecha} = 3 \\times m_{Steel} = 3 \\times 3 = 9g CO_2\\)'
           }
         />
         <Example
           title="Electronics"
-          description="for its 1kg PCBs production CO₂ will account for:"
+          description="for its 1g PCBs production CO₂ will account for:"
           formula={
-            '\\(m CO_{2\\ PCB} = 250 \\times m_{PCB} = 250 \\times 1 = 250kg CO_2\\)'
+            '\\(m CO_{2\\ PCB} = 250 \\times m_{PCB} = 250 \\times 1 = 250g CO_2\\)'
           }
         />
         <Example
           title="Hardware"
           description="at product level, total mass and production CO₂ impact can be estimated as follow"
           formula={
-            '\\(m HW = 3 + 1 = 4 kg \\quad and \\quad m CO_{2\\ HW} = 259kg CO_2\\)'
+            '\\(m HW = 3 + 1 = 4 g \\quad and \\quad m CO_{2\\ HW} = 259g CO_2\\)'
           }
         />
         <Example
           title="Movement"
           description="CO₂ emissions of an equipment regularly transported in a land vehicle along its 20 years of use will account for:"
           formula={
-            '\\(m CO_{2\\ Move Ground Vehicles} = 80 \\times m HW = 80 \\times 4 = 320 kg CO_2\\)'
+            '\\(m CO_{2\\ Move Ground Vehicles} = 80 \\times m HW = 80 \\times 4 = 320 g CO_2\\)'
           }
         />
         <div className="mt-4">
