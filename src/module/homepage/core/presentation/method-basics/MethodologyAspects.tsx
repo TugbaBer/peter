@@ -10,7 +10,7 @@ export function MethodologyAspects() {
         Impacts estimates are calculated by using the same basic principles as
         in LCAs: data aggregating all direct and indirect quantified consumption
         and emissions of a given activity (e.g. 1kWh electricity supplied in
-        Germany) or material (e.g. 1kg Steel production) are introduced in
+        Germany) or material (e.g. 1g Steel production) are introduced in
         environmental models (E.G. IPCC/GIECC model on Climate Change) to define
         the contribution to this type of environmental impact. Those data
         generally cover a range of different context and lead to average data.
