@@ -197,7 +197,7 @@ function Evaluation() {
               <footer className="mt-4 flex w-full justify-end">
                 <div className="bg-bluegrey-700 text-bluegrey-100 w-1/5 text-center">
                   <div className="qtm-caption-2 font-bold p-1">
-                    {evaluationResult.total.toFixed(2)} kg
+                    {evaluationResult.total.toFixed(2)} g
                   </div>
                 </div>
               </footer>
